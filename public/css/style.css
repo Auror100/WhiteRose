@@ -1,0 +1,536 @@
+/* ===================================================== */
+    
+    /* DEFINES */
+    
+    :root {
+    
+        /* Style */
+        
+        /* Flexbox */
+        
+        /* Sizes */  
+        --zones-Height: 20rem;
+    }
+    
+    
+/* ===================================================== */
+
+
+/* ===================================================== */
+    
+    /* OVERRIDE */
+    
+    label {
+    
+        /* Flexbox */
+        overflow-wrap: break-word;
+        text-align: center;
+        
+        /* Sizes */
+        font-size: x-large;
+        padding: 2rem;
+        
+        /* Style */
+        
+    }
+    
+/* ===================================================== */
+
+
+/* ===================================================== */
+    
+    /* BELOW ID --> head-Title */
+    
+    .title {
+        
+        /* Flexbox */
+        align-items: center;
+        display: flex;    
+        justify-content: center;
+        overflow-wrap: break-word;
+        text-align: center;
+        
+        /* Size */
+        font-size: xx-large;
+        min-height: 5rem;
+        
+        /* Style  */
+        background-color: #000;
+        color: #fff;
+        
+    }
+        
+/* ===================================================== */
+
+
+/* ===================================================== */
+    
+    /* BELOW ID --> user-Inputs */
+    
+    /* 
+        ALPHABET ORDER
+    
+        button-radio
+        button-radio:checked
+        button-radio:focus
+        button-radio:hover
+        form
+        group-Radio
+        inputs
+        radio
+        task 
+        
+    */
+    
+    .button-radio {
+    
+        /* Flexbox */
+        display: flex;
+        flex-basis: 15rem;
+        flex-direction: column;
+        justify-content: center;
+        place-items: center;
+    
+        /* Sizes */
+        border-radius: 50px;
+        height: 3rem;
+        margin: 0.2rem;
+    
+        /* Style */
+        cursor: pointer;
+        
+    }
+
+    .button-radio:checked {
+        
+        /* Flexbox */
+    
+        /* Sizes */
+    
+        /* Style */
+        background-color: #5cdb5c;
+        border-color: #5cdb5c; 
+        
+    }
+
+    .button-radio:focus {
+        
+        /* Style */
+        background-color: #5cdb5c;
+        border-color: #5cdb5c;
+        
+        /* Flexbox */
+        
+        /* Sizes */    
+    
+    }
+
+    .button-radio:hover {
+        
+        /* Flexbox */
+        
+        /* Sizes */    
+        transform: scale(1.01);
+        
+        /* Style */
+    
+    }
+
+    .form {
+    
+        /* Flexbox */
+        
+            /* Child behavior */
+            flex-grow: 1; 
+            
+            /* Father Behavior */ 
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+        /* Sizes */
+        width: 100%;
+        
+        /* Style */
+    
+    }
+
+    .group-Radio {
+        
+        /* Flexbox */
+        display: flex;
+        flex-basis: auto;
+        flex-direction: row;
+        justify-content: center;
+        place-content: center;
+        
+        /* Sizes */
+        width: 100%;
+        
+        /* Style */
+        
+    }
+
+    .inputs {
+        
+        /* Flexbox */
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        /* Sizes */    
+        min-height: 30rem;
+    
+        /* Style */
+        
+    }
+
+    .radio {
+        
+        /* Flexbox */
+        
+        /* Sizes */
+        height: 0px;
+        opacity: 0;
+        width: 0px;
+        
+        /* Style */
+        
+    }
+
+    .task {
+
+    /* Flexbox */
+    
+        /* Child behavior */
+        flex-basis: 12rem;
+
+    /* Size */
+    padding: 2rem;
+    width: 16rem;
+
+    /* Style */
+    background-color: #feff9c;
+    
+    }
+
+/* ===================================================== */
+
+
+/* ===================================================== */
+    
+    /* INSIDE ID --> user-Outputs */
+    
+    .container
+    .delete-button
+    .delete-button:hover
+    .inu-Painel
+    .iu-Painel
+    .ninu-Painel
+    .post-It-Inu
+    .post-It-Inu
+    .post-It-Iu 
+    .post-It-Ninu
+    .post-It-Uni
+    .selection-Title
+    .text-content
+    .titles
+    .uni-Painel
+    .uni-Painel
+    
+    .container {
+        
+        /* Flexbox */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        /* Sizes */
+        margin-top: 3rem;
+    
+        /* Style */
+        background-color: #000;
+    }
+    
+    .iu-Painel {
+        
+        /* Flexbox */
+            
+            /* child behavior */
+            flex-basis: 100%;
+            
+            /* father behavior */
+            display: flex; 
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            
+        /* Sizes */
+        min-height: var(--zones-Height);
+        
+        /* Style */
+        background-color: #000;
+        
+    }
+    
+    .post-It-Iu {
+    
+        /* Flexbox */
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow-wrap: break-word;
+        text-align: center;
+    
+        /* Sizes */
+        height: 12rem;
+        margin: 2rem;
+        width: 16rem;
+        
+        /* Style */
+        background-color: #feff9c;
+        
+    }
+    
+    .delete-button {
+        
+        /* Flexbox */
+        
+        /* Sizes */
+        
+        /* Style */
+        border-color: crimson;
+        color: crimson;
+        cursor: pointer;
+    }
+    
+    .delete-button:hover {
+    
+        /* Flexbox */
+        
+        
+        /* Sizes */
+    
+        /* Style */
+        background-color: crimson;
+        color: #fff;    
+    }
+    
+    .inu-Painel {
+    
+        /* Flexbox */
+            
+            /* child behavior  */
+            flex-basis: 100%;
+            
+            /* father behavior */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        
+        /* Sizes */
+        min-height: var(--zones-Height);
+        
+        /* Style */
+        background-color: crimson;
+        
+    }
+    
+    .post-It-Inu {
+    
+        /* Flexbox */
+            
+            /* child behavior  */
+            flex-basis: 16rem;
+            
+            /* child behavior  */
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            overflow-wrap: break-word;
+            text-align: center;
+            
+        /* Sizes */
+        height: 12rem;
+        margin: 2rem;
+            
+        /* Style */
+        background-color: #feff9c;
+        
+    }
+    
+    .uni-Painel {
+        
+        /* Flexbox */
+        
+            /* child behavior  */
+            flex-basis: 100%;
+            
+            /* father behavior */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+    
+        /* Sizes */
+        min-height: var(--zones-Height);
+    
+        /* Style */
+        background-color: chocolate;
+    }
+    
+    .post-It-Uni {
+    
+        /* Flexbox */
+            
+            /* child behavior  */
+            flex-basis: 16rem;
+            
+            /* father behavior */
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            overflow-wrap: break-word;
+            text-align: center;
+            
+        /* Sizes */
+        height: 12rem;
+        margin: 2rem;
+        
+        /* Style */
+        background-color: #feff9c;
+    }
+    
+    .ninu-Painel {
+        
+        /* Flexbox */
+    
+        /* child behavior  */
+        flex-basis: 100%;
+        
+        /* father behavior */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+            
+        /* Sizes */
+        min-height: var(--zones-Height);
+        
+        /* Style */
+        background-color: darkcyan;
+    
+    }
+    
+    .post-It-Ninu {
+    
+        /* Flexbox */
+            
+            /* child behavior  */
+            flex-basis: 16rem;
+            
+            /* father behavior */
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            overflow-wrap: break-word;
+            text-align: center;
+            
+        /* Sizes */
+        height: 12rem;
+        margin: 2rem;
+    
+        /* Style */
+        background-color: #feff9c;
+    }
+    
+    .titles {
+    
+        /* Flexbox */
+    
+            /* child behavior  */
+            flex-basis: 100%;
+    
+        /* Sizes */
+        font-size: xx-large;
+        height: 4rem;
+        margin: 1rem;
+        
+        /* Style */
+        color: #fff;
+    }
+
+    .selection-Title {
+    
+        /* Flexbox */
+        
+        /* Sizes */
+        height: 3rem;
+        margin-right: 80%;
+        width: 20%;
+    
+        /* Style */
+    }
+    
+    .text-content {
+
+    /* Flexbox */
+    
+    /* Sizes */
+    margin: 2rem;
+    
+    /* Style */
+    
+    }
+
+/* ===================================================== */
+
+
+/* ===================================================== */
+    
+    /* Media queries */
+    
+    @media (max-width:781px) {
+
+    .button-radio {
+    
+        /* Flexbox */
+    
+            /* child behavior  */
+            flex-basis: 4rem;
+            
+        /* Sizes */
+        width: 60%;
+        
+        /* Style */
+        
+    }
+    
+    .group-Radio {
+    
+        /* Flexbox */
+        flex-direction: column;
+        place-items: center;
+        
+        /* Sizes */
+        
+        /* Style */
+        
+    }
+    
+    }
+
+/* ===================================================== */
+
+

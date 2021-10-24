@@ -1,0 +1,168 @@
+.title {}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form {
+    /* Child behavior */
+    flex-grow: 1;
+    /* Father Behavior */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.task {
+    flex-basis: 12rem;
+}
+
+.group-Radio {
+    flex-basis: auto;
+    display: flex;
+    flex-direction: row;
+    place-content: center;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+}
+
+.button-radio {
+    flex-basis: 15rem;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.iu-Painel {
+    /* child behavior  */
+    flex-basis: 100%;
+    /* father behavior */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.inu-Painel {
+    /* child behavior  */
+    flex-basis: 100%;
+    /* father behavior */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.uni-Painel {
+    /* child behavior  */
+    flex-basis: 100%;
+    /* father behavior */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.ninu-Painel {
+    /* child behavior  */
+    flex-basis: 100%;
+    /* father behavior */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.titles {
+    flex-basis: 100%;
+    font-size: xx-large;
+    height: 4rem;
+    margin: 1rem;
+    color: #fff;
+}
+
+.post-It-Iu {
+    width: 16rem;
+    height: 12rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.post-It-Inu {
+    flex-basis: 16rem;
+    height: 12rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.post-It-Uni {
+    flex-basis: 16rem;
+    height: 12rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.post-It-Ninu {
+    flex-basis: 16rem;
+    height: 12rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.text-content {
+    margin: 2rem;
+}
+
+.post-It-Footer {
+    width: 20%;
+    height: 3rem;
+    margin-right: 80%;
+}
+
+
+/* ======================================================================= */
+
+@media (max-width:781px) {
+    .group-Radio {
+        flex-direction: column;
+        place-items: center;
+    }
+    .button-radio {
+        flex-basis: 4rem;
+    }
+}

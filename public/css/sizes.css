@@ -1,0 +1,77 @@
+:root {
+    --zones-Height: 20rem;
+}
+
+.title {}
+
+.inputs {
+    min-height: 30rem;
+}
+
+.label-Task-Section {
+    font-size: x-large;
+}
+
+.form {
+    width: 100%;
+}
+
+label {
+    font-size: x-large;
+    padding: 2rem;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+.task {
+    width: 16rem;
+    padding: 2rem;
+}
+
+.selection-Title {
+    font-size: xx-large;
+    padding: 2rem;
+}
+
+.group-Radio {
+    width: 100%;
+}
+
+.button-radio {
+    margin: 0.2rem;
+    height: 3rem;
+}
+
+.radio {
+    width: 0px;
+    height: 0px;
+}
+
+.container {
+    margin-top: 3rem;
+}
+
+.iu-Painel {
+    min-height: var(--zones-Height);
+}
+
+.inu-Painel {
+    min-height: var(--zones-Height);
+}
+
+.uni-Painel {
+    min-height: var(--zones-Height);
+}
+
+.ninu-Painel {
+    min-height: var(--zones-Height);
+}
+
+
+/* ============================================================================ */
+
+@media (max-width:781px) {
+    .button-radio {
+        width: 60%;
+    }
+}
