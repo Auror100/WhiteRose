@@ -63,3 +63,15 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 # WhiteRose
+Sofro com um grande problema de não me adaptar a sistemas de gerenciamento de tempo e rotina, logo comecei a ideia de inventar o meu próprio. Contudo o objetivo é tentar começar o sistema da maneira mais simples possível (até mesmo arcaico). Pensando nisso surgiu a ideia do WhiteRose, o nome é uma referência a um dos vilões/vilã da série Mr.Robot que tem um complexo com o tempo, sendo ele viciado em relógios e calculando em quanto tempo os planos dele devem ocorrer e quanto do tempo dele as pessoas são dignas.
+
+No momento em que escrevo isso, o sistema consta apenas com uma matriz de Eisenhower sendo os próximos objetivos:
+ * Atualizar a matriz para não recarregar a página inteira em cada ação
+ * Criar autenticação para diferenciar usuários
+ * Desenvolver outra utilidade
+ * Subir o sistema em algum domínio
+
+
+
+
+
